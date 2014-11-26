@@ -1,5 +1,2 @@
-# PHPUnit
-phpunit.xml
-
-# Composer PHAR
-composer.phar
+/retailcrm/class/vendor
+composer.lock
