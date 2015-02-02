@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<module>
+    <version>3.0.0</version>
+    <name>retailCrm</name>
+    <faqlink>http://www.retailcrm.ru/</faqlink>
+    <description>Автоматизация интернет-продаж</description>
+    <icon>retailcrm.png</icon>
+    <category>users</category>
+    <adminmenu>
+        <title>retailCrm</title>
+        <podmenu>
+            <podmenu_name>Настройка</podmenu_name>
+            <podmenu_icon>retailcrm.png</podmenu_icon>
+            <podmenu_action>javascript:miniWin('../modules/retailcrm/admpanel/adm_module.php',610,550);</podmenu_action>
+        </podmenu>
+    </adminmenu>
+</module>
